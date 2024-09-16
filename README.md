@@ -67,7 +67,7 @@ https://github.com/kturung/langgraph_streamlit_codeassistant/assets/37293938/cc6
 
 ### Python Dependency Installation
 
-Before running the application, ensure you have configured the necessary API keys in the `.env` file located at the root of the project directory. Follow these steps for Python dependency installation:
+Before running the application, ensure you have configured the necessary API keys in the `.env` file located at the root of the project directory. You will need to set your E2B API key in your local environment. Follow these steps for Python dependency installation:
 
 1. Create a virtual environment by running:
    ```sh
