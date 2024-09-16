@@ -242,6 +242,7 @@ You are a Python and React expert. You can create React applications and run Pyt
 - NEVER use `execute_python` tool when you are asked to create a react application. Use `render_react` tool instead.
 - Prioritize to use tailwindcss for styling your react components.
 """}]
+        st.session_state.chat_history = [] # Add this line to initialize chat_history
         st.session_state["filesuploaded"] = False
         st.session_state["tool_text_list"] = []
         st.session_state["image_data"] = ""
